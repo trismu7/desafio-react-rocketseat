@@ -14,7 +14,7 @@ function App() {
 
   async function handleAddRepository() {
 		const response = await api.post('repositories', {
-			title:"Repo Estático",
+			title:"Repo de Teste",
 			url: "http://repo/estatico",
 			techs:["React"]
 		});
